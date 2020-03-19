@@ -1,0 +1,21 @@
+{
+  "name": "wtf/configuration",
+  "type": "package",
+  "version": "0.1.0",
+  "homepage": "http://www.matthewcameron.ca",
+  "license": "Copyright 2018, Matthew Cameron",
+  "description": "A PHP-SDK for Twitter Search API",
+  "keywords": ["wtf", "what the framework"],
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Wtf\\Configuration\\" : "src/",
+      "Wtf\\Configuration\\Tests\\" : "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "7.0.2"
+  }
+}
